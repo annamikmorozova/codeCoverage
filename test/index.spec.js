@@ -36,5 +36,4 @@ describe("randomNumber function", function () {
     const result = randomNumber(2, 7);
     expect(result).to.be.a("number");
   })
-})
-
+});
