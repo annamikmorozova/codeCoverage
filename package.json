@@ -4,7 +4,7 @@
   "description": "Medium article for JavaScript test coverage measurement",
   "main": "index.js",
   "scripts": {
-    "test": "nyc --reporter=text mocha",
+    "test": "mocha",
     "test-with-html": "nyc --reporter=html mocha"
   },
   "author": "Anna Morozova",

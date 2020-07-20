@@ -8,7 +8,7 @@ const {
 describe("capitalize function", function () {
   it("should capitalize first letter of a string", () => {
     const result = capitalize("flavio");
-    expect(result).to.have.lengthOf(6)
+    expect(result).to.have.lengthOf(6);
     expect(result).to.equal("Flavio");
   });
 
@@ -25,9 +25,9 @@ describe("reverseString function", function () {
     expect(result).to.equal("olleh");
   });
 
-  it("should return 'It is not a string' if the type of the argument is not a string", () => {
+  it("should return 'Error: It is not a string' if the type of the argument is not a string", () => {
     const result = reverseString(45);
-    expect(result).to.equal("It is not a string")
+    expect(result).to.equal("Error: It is not a string");
   })
 });
 
